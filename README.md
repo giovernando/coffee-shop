@@ -2,7 +2,7 @@
 
 A professional Progressive Web App for guitar chords and songs, built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -72,7 +72,7 @@ The app is PWA-ready. To install:
 - Chrome: Menu → "Install GuitarChords"
 - Edge: Menu → "Apps" → "Install this site as an app"
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -102,7 +102,7 @@ src/
     └── validation.ts      # Data validation pipeline
 ```
 
-## 🎸 Core Features
+## Core Features
 
 ### Chord Transposition
 - Professional -12 to +12 semitone transposition
@@ -127,7 +127,7 @@ src/
 - IndexedDB for favorites
 - Stale-while-revalidate strategy
 
-## 🎨 Design System
+## Design System
 
 - **Dark Mode Default**: Professional dark theme
 - **Mobile-First**: Optimized for touch
@@ -135,20 +135,20 @@ src/
 - **Typography**: Sans-serif UI, monospace for chords
 - **Spacing**: 4px scale system
 
-## 🔒 Security
+## Security
 
 - Supabase Row Level Security (RLS)
 - Authenticated favorites access
 - Environment variable protection
 
-## 📊 Performance
+## Performance
 
 - Server Components by default
 - Lazy loading for routes
 - Optimized images with next/image
 - Minimal JavaScript bundle
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript (strict mode)
@@ -158,7 +158,7 @@ src/
 - **PWA**: Service Worker + Manifest
 - **State**: Zustand + React hooks
 
-## 📦 Build for Production
+## Build for Production
 
 ```bash
 # Build the application
@@ -168,7 +168,7 @@ npm run build
 npm start
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Genius API
 
@@ -182,14 +182,14 @@ npm start
 2. Copy project URL and anon key to `.env.local`
 3. Run the SQL setup script
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+## License
 
 MIT License - feel free to use for personal or commercial projects.
 
